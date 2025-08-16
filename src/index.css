@@ -1,0 +1,14 @@
+@import "tailwindcss";
+.input {
+  @apply w-full rounded-xl border border-gray-200 px-3 py-2.5 outline-none
+         focus:border-orange-400 focus:ring-4 focus:ring-orange-100 bg-white;
+}
+
+@layer base {
+  button,
+  [role="button"],
+  .btn,
+  .icon-btn,
+  .clickable {
+    @apply cursor-pointer;
+  }}
